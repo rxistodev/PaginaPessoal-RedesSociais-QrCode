@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 50px 70px 50px 70px;
+    box-shadow: 1px 1px 5px black;
+}
+.cabecalho {
+    text-align: center;
+}
+.perfil{
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px black;
+}
+.nome{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+.instagram{
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+.instagram:hover{
+    background-color: rgba(255, 122, 122, 0.37);
+    transition: 0.2s;
+}
