@@ -1,8 +1,8 @@
 @media screen and (max-width: 560px) {
 
     body{
-        max-width: 400px;
-        margin: 0 auto;
+        max-width: 300px;
+        margin: 20px auto;
         height: auto;
         
     }
