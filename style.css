@@ -1,32 +1,95 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
 }
 
 body{
+    border: 10px solid black;
+    border-radius: 10px;
     margin: 50px 70px 50px 70px;
     box-shadow: 1px 1px 5px black;
+        
 }
+
+
 .cabecalho {
     text-align: center;
+    background-image: linear-gradient(to top, white, rgb(0, 0, 0));    
 }
 .perfil{
     margin-top: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 3px black;
 }
-.nome{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
+
+div{
+    text-align: center;
 }
 
 .instagram{
-    
-    margin-top: 20px;
+    border: 3px solid black;
+    margin: 20px;
     text-align: center;
+    border-radius: 10px;   
+}
+
+.imginsta{
+   height: 120px;
+   margin-top: -35px;
+   margin-bottom: -2px;
 }
 
 .instagram:hover{
     background-color: rgba(255, 122, 122, 0.37);
-    transition: 0.2s;
+    transition: 0.3s;
+}
+
+.wpp{
+    border: 3px solid black;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.wpp:hover{
+    background-color: rgba(58, 207, 58, 0.753);
+    transition: 0.3s;
+}
+.imgwpp{
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.linkedin{
+    border: 3px solid black;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.linkedin:hover{
+    background-color: rgba(148, 148, 253, 0.5);
+}
+.imglinkedin{
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.github{
+    border: 3px solid black;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.imggithub{
+    height: 70px;
+    margin-top: 10px;
+}
+
+.github:hover{
+    background-color: rgba(3, 3, 3, 0.349);
 }
